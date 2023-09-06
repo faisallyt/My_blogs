@@ -5,6 +5,7 @@ import BlogDetails from './BlogDetails';
 export default function Blogs () {
   const {posts,loading}=useContext(AppContext);
   if(posts.length>0){
+    console.log("posts");
     console.log(posts);
   }
   return (
